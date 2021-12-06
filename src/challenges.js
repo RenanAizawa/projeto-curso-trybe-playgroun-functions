@@ -149,6 +149,18 @@ function decode(code) {
   return text
 }
 
+// Desafio 10
+var tech = ['React', 'Jest', 'HTML', 'CSS', 'JavaScript'];
+var list = {
+  tech:'', 
+  nome:'',
+};
+function listaTecnologia (tech, name) {
+  for ( var i in tech) {
+    
+  }
+}
+
 module.exports = {
   calcArea,
   catAndMouse,
